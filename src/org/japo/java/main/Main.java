@@ -34,13 +34,13 @@ public final class Main {
         //Constantes
         final String animal = "Vaca";
         final int vaca = 3;
-        
+
         final String animal2 = "Oveja";
         final int oveja = 14;
-        
+
         final String animal3 = "Burro";
         final int burro = 2;
-        
+
         final String animal4 = "Gallina";
         final int gallina = 18;
 
@@ -48,41 +48,41 @@ public final class Main {
         final int bipedo = 2;
 
         //Operaciones
-              System.out.printf("Secuencia de Patas%n");
-              System.out.printf("====================%n");
+        System.out.printf("Secuencia de Patas%n");
+        System.out.printf("====================%n");
         //Vaca
-              System.out.printf("Animal .........: %s%n", animal);
-              System.out.printf("Cantidad .......: %d%n", vaca);
-              patasanimal1 = vaca * cuadropedo;
-              System.out.printf("Patas ..........: %d%n", patasanimal1);
-        
+        System.out.printf("Animal .........: %s%n", animal);
+        System.out.printf("Cantidad .......: %d%n", vaca);
+        patasanimal1 = vaca * cuadropedo;
+        System.out.printf("Patas ..........: %d%n", patasanimal1);
+
         //Oveja
-             System.out.printf("---%n");
-             System.out.printf("Animal .........: %s%n", animal2);
-             System.out.printf("Cantidad .......: %d%n", oveja);
-             patasanimal2 = oveja * cuadropedo;
-             System.out.printf("Patas ..........: %d%n", patasanimal2);
-             System.out.printf("---%n");
-        
+        System.out.printf("---%n");
+        System.out.printf("Animal .........: %s%n", animal2);
+        System.out.printf("Cantidad .......: %d%n", oveja);
+        patasanimal2 = oveja * cuadropedo;
+        System.out.printf("Patas ..........: %d%n", patasanimal2);
+        System.out.printf("---%n");
+
         //Burro
-             System.out.printf("Animal .........: %s%n", animal3);
-             System.out.printf("Cantidad .......: %d%n", oveja);
-             patasanimal3 = burro * cuadropedo;
-             System.out.printf("Patas ..........: %d%n", patasanimal3);
-             System.out.printf("---%n");
-        
+        System.out.printf("Animal .........: %s%n", animal3);
+        System.out.printf("Cantidad .......: %d%n", oveja);
+        patasanimal3 = burro * cuadropedo;
+        System.out.printf("Patas ..........: %d%n", patasanimal3);
+        System.out.printf("---%n");
+
         //Gallina
-             System.out.printf("Animal .........: %s%n", animal4);
-             System.out.printf("Cantidad .......: %d%n", gallina);
-             patasanimal4 = gallina * bipedo;
-             System.out.printf("Patas ..........: %d%n", patasanimal4);
-             System.out.printf("---%n");
-             
+        System.out.printf("Animal .........: %s%n", animal4);
+        System.out.printf("Cantidad .......: %d%n", gallina);
+        patasanimal4 = gallina * bipedo;
+        System.out.printf("Patas ..........: %d%n", patasanimal4);
+        System.out.printf("---%n");
+
         //Totales
-             totalPatas = patasanimal1 + patasanimal2 + patasanimal3 
-                     + patasanimal4;
-             System.out.printf("Total de Patas .: %d%n", totalPatas);
-             totalPares = totalPatas / 2;
-             System.out.printf("Total de Pares .: %d%n", totalPares);
+        totalPatas = patasanimal1 + patasanimal2 + patasanimal3
+                + patasanimal4;
+        System.out.printf("Total de Patas .: %d%n", totalPatas);
+        totalPares = totalPatas / 2;
+        System.out.printf("Total de Pares .: %d%n", totalPares);
     }
 }
