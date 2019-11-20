@@ -66,7 +66,7 @@ public final class Main {
 
         //Burro
         System.out.printf("Animal .........: %s%n", animal3);
-        System.out.printf("Cantidad .......: %d%n", oveja);
+        System.out.printf("Cantidad .......: %d%n", burro);
         patasanimal3 = burro * cuadropedo;
         System.out.printf("Patas ..........: %d%n", patasanimal3);
         System.out.printf("---%n");
